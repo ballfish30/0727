@@ -109,9 +109,9 @@ git status
 
 2.Q 請試著回答下列問題: (本文件的結尾處有參考答案)
 
-    (1) 什麼是 repository(數據庫)?
+    (1) 什麼是 repository(數據庫)?.git資料夾
 
-    (2) 什麼是 working directory?
+    (2) 什麼是 working directory?受.git控制
 
 
 
@@ -210,13 +210,13 @@ git merge --no-ff bbq
 
 4.Q 請試著回答下列問題:
 
-    (1) 什麼是 branch(分支)?
+    (1) 什麼是 branch(分支)?從主線分出來的支線，可透過git版本控制
 
-    (2) 每個 repository(數據庫) 預設的 branch(分支) 叫什麼名字?
+    (2) 每個 repository(數據庫) 預設的 branch(分支) 叫什麼名字?master
 
-    (3) 哪一個指令可切換 branch(分支)?
+    (3) 哪一個指令可切換 branch(分支)?git checkout 分支名
 
-    (4) 要合併分支主線的 git 指令怎麼寫?
+    (4) 要合併分支主線的 git 指令怎麼寫?git merge --no-ff 分支名
 
 
 
